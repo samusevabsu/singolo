@@ -1,0 +1,10 @@
+header {
+    background-color: #2d303a;
+    height: 90px;
+}
+header:after {
+    content: "";
+    width: 1020px;
+    height: 7px;
+    background-color: #323746;
+}
