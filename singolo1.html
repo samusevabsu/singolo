@@ -5,17 +5,40 @@
     <meta charset="UTF-8">
     <title>singolo</title>
     <link rel="stylesheet" href="singolo1.css">
-</head>
-<body>
-    <header>
-       
-    <ul>
-        <li>HOME</li>
-        <li>SERVICES</li>
-        <li>PORTFOLIO</li>
-        <li>ABOUT</li>
-        <li>CONTACT</li>
-    </ul>
+    <style type="text/css" media="screen, print">
+    @font-face {
+        font-family: Lato-Bold;
+        src: local("Lato-Bold"),
+             url(assets/Lato-Bold.ttf);
+        font-weight: bold;
+      }
+    </style>
 
-    </header>
+</head>
+
+<body>
+    <div class="wrapper">
+        <header>
+
+            <div class="logo">
+                <a href="#">SINGOLO</a>
+            </div>
+            <nav>
+                <ul class="navbar">
+                    <li><a id="active" href="#">HOME</li>
+                    <li><a href="#">SERVICES</a></li>
+                    <li><a href="#">PORTFOLIO</a></li>
+                    <li><a href="#">ABOUT</a></li>
+                    <li><a href="#">CONTACT</a></li>
+                </ul>
+            </nav>
+        </header>
+        <main>
+            <div class="arrow" id="left"></div>
+            <div class="phone_vertical"></div>
+            <div class="phone_horizontal"></div>
+            <div class="arrow" id="right"></div>
+        </main>
+        <footer></footer>
+    </div>
 </body>
