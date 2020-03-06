@@ -134,37 +134,42 @@ padding-bottom: 74px;
 
 .services_container {
     display: flex;
+    flex-wrap: wrap;
     justify-content: space-between;
     padding-top: 68px;
     
 }
-
 .services_summary {
     display: flex;
     flex-wrap: wrap;
 }
 
 .summary_title {
-    font-size: 30px;
-line-height: 18px;
-color: #666d89;
-font-family: "Lato", sans-serif;
-font-weight: 700;
-text-align: left;
-    margin-bottom: 33px;
+    color: #666d89;
+  font-weight: 900;
+  font-size: 30px;
+  margin-bottom: 29px;
+  line-height: 18px;
 }
 
 .summary_info {
-font-size: 18px;
-line-height: 30px;
-color: #767e9e;
-font-family: "Lato", sans-serif;
-font-weight: 300;
-text-align: justify;
+    color: #767e9e;
+  font-weight: 300;
+  font-size: 18px;
+  margin-bottom: 48px;
+  line-height: 30px;
+  text-align: justify;
 }
 
 .services_list {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
+  
+}
+.services_item {
+    display: flex;
+    justify-content: space-between;
+    flex: 0 0 33%;
+    margin-right: -10px;
 }
