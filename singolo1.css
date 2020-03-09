@@ -1,3 +1,35 @@
+@font-face {
+    font-family: "Lato";
+    font-weight: 400;
+    font-style: normal;
+    src: url(./assets/Lato-Regular.woff2) format("woff2"),
+    url(./assets/Lato-Regular.woff) format("woff");
+}
+
+@font-face {
+    font-family: "Lato";
+    font-weight: 700;
+    font-style: normal;
+    src: url(./assets/Lato-Bold.woff2) format("woff2"),
+    url(./assets/Lato-Bold.woff) format("woff");
+}
+
+@font-face {
+    font-family: "Lato";
+    font-weight: 900;
+    font-style: normal;
+    src: url(./assets/Lato-Black.woff2) format("woff2"),
+    url(./assets/Lato-Black.woff) format("woff");
+}
+
+@font-face {
+    font-family: "Lato";
+    font-weight: 300;
+    font-style: normal;
+    src: url(./assets/Lato-Light.woff2) format("woff2"),
+    url(./assets/Lato-Light.woff) format("woff");
+}
+
 *,
 *::before,
 *::after {
@@ -63,14 +95,15 @@ img {
 }
 
 .header_link {
+    font-family: "Lato";
+    font-weight: 400;
     font-size: 12px;
     line-height: 6px;
     color: #ffffff;
     text-decoration: none;
     text-align: left;
-    font-weight: 400;
     text-transform: uppercase;
-    font-family: 'Lato', sans-serif;
+    ;
 
 }
 
@@ -87,7 +120,7 @@ img {
     text-align: left;
     letter-spacing: -1px;
     text-transform: uppercase;
-    font-family: 'Lato', sans-serif;
+    font-family: 'Lato';
     font-weight: 700;
 }
 
@@ -145,13 +178,16 @@ img {
     display: flex;
     justify-content: space-between;
     flex-wrap: wrap;
+    font-family: "Lato";
+    font-weight: 300;
 }
 
 .summary_title {
+    font-family: "Lato";
+    font-weight: 900;
     font-size: 30px;
     line-height: 18px;
     color: #666d89;
-    font-weight: 900;
     text-align: left;
     padding-bottom: 33px;
 }
@@ -180,9 +216,9 @@ padding-bottom: 51px;
 }
 
 .services_icon {
-    width: 59px;
-    height: 59px;
-    border-radius: 50%;
+    width: 60px;
+    height: 60px;
+    border-radius: 60%;
     flex: 0 0 60px;
     margin-right: 20px;
 }
@@ -194,28 +230,27 @@ padding-bottom: 51px;
   border-radius: 50%;
 }
 
-
-
 .item_text {
     text-align: justify;
     margin-right: 20px;
 }
 
-
-
 .item_title {
+    font-family: "Lato";
+    font-weight: 900;
     font-size: 18px;
     line-height: 18px;
     color: #666d89;
-    font-weight: 900;
     text-align: left;
     margin-bottom: 15px;
 }
 
 .item_description {
+    font-family: "Lato";
+    font-weight: 400;
 font-size: 12px;
 line-height: 22px;
 color: #767e9e;
-font-weight: 400;
 text-align: left;
+letter-spacing: 0.6px;
 }
