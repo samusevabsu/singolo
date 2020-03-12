@@ -1,3 +1,35 @@
+@font-face {
+    font-family: "Lato";
+    font-weight: 400;
+    font-style: normal;
+    src: url(./assets/Lato-Regular.woff2) format("woff2"),
+    url(./assets/Lato-Regular.woff) format("woff");
+}
+
+@font-face {
+    font-family: "Lato";
+    font-weight: 700;
+    font-style: normal;
+    src: url(./assets/Lato-Bold.woff2) format("woff2"),
+    url(./assets/Lato-Bold.woff) format("woff");
+}
+
+@font-face {
+    font-family: "Lato";
+    font-weight: 900;
+    font-style: normal;
+    src: url(./assets/Lato-Black.woff2) format("woff2"),
+    url(./assets/Lato-Black.woff) format("woff");
+}
+
+@font-face {
+    font-family: "Lato";
+    font-weight: 300;
+    font-style: normal;
+    src: url(./assets/Lato-Light.woff2) format("woff2"),
+    url(./assets/Lato-Light.woff) format("woff");
+}
+
 *,
 *::before,
 *::after {
@@ -8,9 +40,83 @@
     -webkit-box-sizing: border-box;
 }
 
+img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+}
+
 .container {
     max-width: 1020px;
     margin: 0 auto;
     padding-left: 40px;
     padding-right: 40px;
 }
+
+.portfolio {
+    background-color: #2d303a;
+    border-bottom: 6px solid #323746;
+}
+
+.portfolio_container {
+    display: flex;
+    justify-content: space-between;
+    height: 870px;
+    padding-top: 67px;
+    padding-bottom: 67px;
+    align-items: center;
+}
+
+.portfolio_content {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    font-family: "Lato";
+}
+
+.portfolio_title {
+    font-size: 30px;
+line-height: 18px;
+color: #666d89;
+font-family: "Lato";
+font-weight: 900;
+text-align: left;
+margin-bottom: 32px;
+}
+
+.portfolio_info {
+font-size: 18px;
+line-height: 30px;
+color: #767e9e;
+font-family: "Lato";
+font-weight: 300;
+text-align: left;
+}
+
+.portfolio_navbar {
+    display: flex;
+    align-items: center;
+}
+
+.tags_list {
+    flex-wrap: wrap;
+}
+
+.portfolio_tag {
+    display: inline-block;
+    vertical-align: middle;
+    margin: 0 5px 5px 0;
+    border: 1px solid #666d89;
+    border-radius: 5px;
+    padding: 6px;
+}
+
+.tag_link {
+    text-decoration: none;
+    text-align: center;
+    color: #767e9e;
+    font-size: 12px;
+    font-family: "Lato";
+font-weight: 400;
+}
+
